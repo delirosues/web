@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#170d2b">
+  <title>Archive Of Us💜</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- PASSWORD SCREEN -->
+  <section class="password-screen" id="passwordScreen">
+    <div class="password-card">
+      <div class="password-heart">♡</div>
+
+      <h1>
+        YOU'VE FOUND OUR<br>
+        <span>ARCHIVE</span>
+      </h1>
+
+      <p class="password-description">
+        Enter our special date
+        to unlock our memories.
+      </p>
+
+      <form id="passwordForm">
+        <label for="passwordInput">Our special date</label>
+
+        <input
+          type="password"
+          id="passwordInput"
+          placeholder="Enter our secret date"
+          autocomplete="off"
+          required
+        >
+
+        <p class="password-hint">Hint: MMDDYYYY ♡</p>
+
+        <p class="password-error" id="passwordError" role="alert"></p>
+
+        <button type="submit" class="primary-btn unlock-btn">
+          Unlock Our Memories ♡
+        </button>
+      </form>
+
+      <p class="password-signature">LAXISHANE ARIMADO♡</p>
+    </div>
+  </section>
+
+
+  <!-- MAIN WEBSITE: HIDDEN UNTIL UNLOCKED -->
+  <div class="app" id="websiteContent" hidden>
+
+    <!-- SIDEBAR NAVIGATION -->
+    <aside class="sidebar">
+      <nav>
+        <button type="button" class="nav-btn active" data-page="home">
+          ⌂ Home
+        </button>
+
+        <button type="button" class="nav-btn" data-page="photos">
+          ♡ Memories
+        </button>
+
+        <button type="button" class="nav-btn" data-page="messages">
+          ✉ Messages
+        </button>
+
+        <button type="button" class="nav-btn" data-page="timer">
+          ◷ Timeline
+        </button>
+      </nav>
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+      <!-- HOME PAGE -->
+      <section class="page active" id="home">
+
+        <div class="hero">
+          <p class="eyebrow">HAPPY 8TH MONTHSARY!</p>
+
+          <h1>
+            OUR BEAUTIFUL<br>
+            <span>STORY</span>
+          </h1>
+
+          <p class="hero-text">
+            Time may pass, but our memories will always stay and be
+            cherished.
+          </p>
+
+          <button type="button" class="primary-btn" data-go="photos">
+            Explore our memories ♡
+          </button>
+        </div>
+
+        <div class="feature-grid">
+
+          <article class="feature-card" data-go="photos" tabindex="0">
+            <span class="feature-icon">♡</span>
+            <h3>Memories</h3>
+            <p>
+              Different moments, favorite memories, and pictures
+              that we will always cherish.
+            </p>
+          </article>
+
+          <article class="feature-card" data-go="messages" tabindex="0">
+            <span class="feature-icon">✉</span>
+            <h3>Love Letters</h3>
+            <p>
+              Words that will remind you how lucky I am
+              to have you in my life.
+            </p>
+          </article>
+
+          <article class="feature-card" data-go="timer" tabindex="0">
+            <span class="feature-icon">◷</span>
+            <h3>Timeline</h3>
+            <p>
+              Counting the days since we became official.
+            </p>
+          </article>
+
+        </div>
+      </section>
+
+
+      <!-- OUR PHOTOS PAGE -->
+      <section class="page" id="photos">
+
+        <div class="section-heading">
+          <p class="eyebrow">MEMORIES WE WILL ALWAYS KEEP</p>
+          <h1>Memories <span>♡</span></h1>
+          <p>Every picture holds a moment in our story.</p>
+        </div>
+
+        <div class="photo-grid" id="photoGrid">
+
+          <div class="photo-box has-photo">
+            <img src="photos/photo1.jpg" alt="Mock up interview">
+          </div>
+
+          <div class="photo-box has-photo">
+            <img src="photos/photo2.jpg" alt="first pic together">
+          </div>
+
+          <div class="photo-box has-photo">
+            <img src="photos/photo3.jpg" alt="fav moment">
+          </div>
+
+          <div class="photo-box has-photo">
+            <img src="photos/photo4.jpg" alt="monthsaryyyy">
+          </div>
+
+          <div class="photo-box has-photo">
+            <img src="photos/photo5.jpg" alt="go to cafee">
+          </div>
+
+          <div class="photo-box has-photo">
+            <img src="photos/photo6.jpg" alt="picpicpiccc">
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- MESSAGES PAGE -->
+      <section class="page" id="messages">
+
+        <div class="section-heading">
+          <p class="eyebrow">WORDS OF LOVE</p>
+          <h1>For You, <span>My Love</span></h1>
+          <p>A REMINDER OF HOW MUCH YOU MEAN TO ME</p>
+        </div>
+
+        <article class="letter-card">
+
+          <div class="letter-heart">♡</div>
+
+          <h2>To my favorite person,</h2>
+
+          <p>
+            HII BEBE! AKALAIN MO NOH? 8 MONTHS NA US, ANG BILIS
+            NG PANAHON PERO I STILL CAN'T HELP BUT WONDER HOW I GOT
+            LUCKY TO HAVE YOU IN MY LIFE. IMAGINE? WE STARTED FROM BEING
+            STRANGERS TO CLASSMATES AND THEN NOW WE'RE OFFICIALLY TOGETHER.
+            WHO WOULD'VE THOUGHT THAT AFTER I CONFESSED, I GET TO KNOW THAT
+            YOU LIKED ME ALSO? HAYS, THAT WAS UNEXPECTABLE.
+          </p>
+
+          <p>
+            I WANT YOU TO KNOW THAT I AM GRATEFUL TO HAVE YOU IN MY LIFE.
+            THANK YOU KASI YOU NEVER FAILED TO UNDERSTAND ME IN DAYS THAT
+            EVEN I CANNOT UNDERSTAND MYSELF. THANK YOU FOR YOUR ENDLESS
+            EFFORTS, FOR MAKING TIME FOR US AND YOUR NEVER-ENDING PATIENCE
+            EVERY TIME I BECOME SO MAKULIT.
+          </p>
+
+          <p>
+            ALAM KO HINDI NAMAN ARAW-ARAW PERPEKTO TAYONG DALAWA, SYEMPRE MAY
+            MGA HINDI PAGKAKAUNAWAAN. BUT, I WANT YOU TO KNOW THAT I WILL NEVER
+            GET TIRED OF UNDERSTANDING YOU AND MAKING YOU FEEL LOVED EVERY DAY.
+            I HOPE THROUGH THOSE MISUNDERSTANDINGS, WE GET TO LEARN, GROW
+            AND BE BETTER FOR EACH OTHER AND FOR OUR RELATIONSHIP.
+          </p>
+
+          <p>
+            I WANT YOU TO KNOW THAT I WILL ALWAYS SUPPORT YOU,
+            AND LET THIS BE A REMINDER THAT YOU ARE DEEPLY
+            APPRECIATED EVEN ON THE DAYS WHEN YOU DON'T FEEL
+            YOUR BEST. YOU DON'T HAVE TO BE PERFECT IN ORDER TO FEEL LOVED
+            AND VALUED. I WANT YOU TO KNOW THAT I ACCEPT YOU FOR WHO YOU ARE,
+            AND I WILL ALWAYS LOVE YOU.
+          </p>
+
+          <p>
+            PLEASE DON'T BE SCARED TO BE VULNERABLE WITH ME, YOU'RE SAFE BY MY SIDE, YOU DON'T HAVE TO HIDE YOUR FEELINGS.
+            AND PRETEND TO BE OKAY. I AM ALWAYS AVAILABLE WHEN YOU NEED ME. REST ASSURED THAT YOU DON'T HAVE
+            SOMEBODY TO COMPETE WITH BECAUSE IT IS YOU THAT I LOVE ALWAYS.
+            PLEASE COME TO ME IF THERE IS ANY PROBLEM, OKAY?
+            LET ME ASSURE YOU PO. I DON'T WANT YOU TO BE ALONE IN THOSE
+            MOMENTS. PLEASE COMMUNICATE WITH ME ALWAYS PO AH?
+          </p>
+
+          <p>
+            HAPPY 8TH MONTHSARY, BEBE! I KNOW NABATI NA KITA KANINANG
+            MADALING ARAW PERO GUSTO KO PA RIN IKAW BATIIN. THANK YOU
+            FOR BEING PART OF MY LIFE AND FOR MAKING IT MORE MEANINGFUL.
+            I LOOK FORWARD TO MAKING MORE MEMORIES WITH YOU.
+          </p>
+
+          <p>
+            I KNOW I MAY NOT ALWAYS FIND THE PERFECT WORDS TO EXPRESS
+            HOW I FEEL, BUT I HOPE THAT MY ACTIONS WILL CONTINUE TO SHOW
+            YOU HOW MUCH I LOVE YOU AND HOW MUCH YOU MEAN TO ME.
+            I WILL CHOOSE YOU ALWAYS, IN ALL WAYS. ILOVEYOUUU!
+          </p>
+
+          <p class="letter-signature">
+            Always yours, Love. ♡
+          </p>
+
+          <!-- PERSONAL MESSAGE -->
+          <div class="personal-note">
+            <label for="personalNote">Write your own message</label>
+
+            <textarea
+              id="personalNote"
+              placeholder="Write something special here..."
+            ></textarea>
+
+            <button type="button" class="primary-btn" id="saveNote">
+              Save Message
+            </button>
+
+            <p id="saveStatus" class="save-status"></p>
+          </div>
+
+        </article>
+      </section>
+
+
+      <!-- OUR TIME PAGE -->
+      <section class="page" id="timer">
+
+        <div class="section-heading">
+          <p class="eyebrow">EVERY SECOND COUNTS</p>
+          <h1>Official On: <span>♡</span></h1>
+          <p>Every second is another second of our story.</p>
+        </div>
+
+        <div class="timer-card">
+
+          <div class="timer-heart">♥</div>
+
+          <p class="timer-label">WE'VE BEEN TOGETHER FOR</p>
+
+          <div class="timer-grid">
+
+            <div class="timer-unit">
+              <strong id="days">0</strong>
+              <span>Days</span>
+            </div>
+
+            <div class="timer-unit">
+              <strong id="hours">0</strong>
+              <span>Hours</span>
+            </div>
+
+            <div class="timer-unit">
+              <strong id="minutes">0</strong>
+              <span>Minutes</span>
+            </div>
+
+            <div class="timer-unit">
+              <strong id="seconds">0</strong>
+              <span>Seconds</span>
+            </div>
+
+          </div>
+
+          <p class="timer-caption">And counting, with you! ♡</p>
+
+          <p class="start-date">Since February 25, 2026</p>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+
+  <!-- JAVASCRIPT -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+
+      // PASSWORD SCREEN
+      const passwordScreen = document.getElementById("passwordScreen");
+      const passwordForm = document.getElementById("passwordForm");
+      const passwordInput = document.getElementById("passwordInput");
+      const passwordError = document.getElementById("passwordError");
+      const passwordCard = document.querySelector(".password-card");
+      const websiteContent = document.getElementById("websiteContent");
+
+      // Password: February 25, 2026
+      const correctPassword = "02252026";
+
+      passwordForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        // Allows 02252026, 02/25/2026, or 02-25-2026
+        const enteredPassword = passwordInput.value.replace(/\D/g, "");
+
+        if (enteredPassword === correctPassword) {
+          passwordError.textContent = "";
+          passwordScreen.hidden = true;
+          websiteContent.hidden = false;
+
+          showPage("home");
+          updateTimer();
+
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        } else {
+          passwordError.textContent =
+            "That's not our special date. Try again. ♡";
+
+          passwordCard.classList.remove("shake");
+          void passwordCard.offsetWidth;
+          passwordCard.classList.add("shake");
+
+          passwordInput.value = "";
+          passwordInput.focus();
+        }
+      });
+
+
+      // PAGE NAVIGATION
+      const pages = document.querySelectorAll(".page");
+      const navButtons = document.querySelectorAll(".nav-btn");
+      const goButtons = document.querySelectorAll("[data-go]");
+
+      function showPage(pageName) {
+        const targetPage = document.getElementById(pageName);
+
+        if (!targetPage || !targetPage.classList.contains("page")) {
+          return;
+        }
+
+        pages.forEach((page) => {
+          page.classList.toggle("active", page === targetPage);
+        });
+
+        navButtons.forEach((button) => {
+          button.classList.toggle(
+            "active",
+            button.dataset.page === pageName
+          );
+        });
+
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+
+      navButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          showPage(button.dataset.page);
+        });
+      });
+
+      goButtons.forEach((button) => {
+        button.addEventListener("click", () => {
+          showPage(button.dataset.go);
+        });
+      });
+
+      document.querySelectorAll(".feature-card[data-go]").forEach((card) => {
+        card.addEventListener("keydown", (event) => {
+          if (event.key === "Enter" || event.key === " ") {
+            event.preventDefault();
+            showPage(card.dataset.go);
+          }
+        });
+      });
+
+
+      // ANNIVERSARY TIMER
+      // Month is zero-based in JavaScript: 1 = February
+      const anniversaryDate = new Date(2026, 1, 25, 0, 0, 0);
+
+      const daysElement = document.getElementById("days");
+      const hoursElement = document.getElementById("hours");
+      const minutesElement = document.getElementById("minutes");
+      const secondsElement = document.getElementById("seconds");
+
+      function updateTimer() {
+        const now = new Date();
+        let difference = Math.max(
+          0,
+          now.getTime() - anniversaryDate.getTime()
+        );
+
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        difference %= 1000 * 60 * 60 * 24;
+
+        const hours = Math.floor(difference / (1000 * 60 * 60));
+        difference %= 1000 * 60 * 60;
+
+        const minutes = Math.floor(difference / (1000 * 60));
+        difference %= 1000 * 60;
+
+        const seconds = Math.floor(difference / 1000);
+
+        daysElement.textContent = days;
+        hoursElement.textContent = hours;
+        minutesElement.textContent = minutes;
+        secondsElement.textContent = seconds;
+      }
+
+      updateTimer();
+      setInterval(updateTimer, 1000);
+
+
+      // SAVE PERSONAL MESSAGE IN THIS BROWSER
+      const personalNote = document.getElementById("personalNote");
+      const saveNote = document.getElementById("saveNote");
+      const saveStatus = document.getElementById("saveStatus");
+
+      try {
+        personalNote.value = localStorage.getItem("ourPersonalNote") || "";
+      } catch (error) {
+        console.warn("Unable to load the saved message.");
+      }
+
+      saveNote.addEventListener("click", () => {
+        try {
+          localStorage.setItem("ourPersonalNote", personalNote.value);
+          saveStatus.textContent = "Your message has been saved. ♡";
+        } catch (error) {
+          saveStatus.textContent =
+            "Unable to save the message in this browser.";
+        }
+      });
+
+    });
+  </script>
+
+</body>
+</html>
+```
